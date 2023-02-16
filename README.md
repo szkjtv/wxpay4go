@@ -2,7 +2,7 @@
 微信支付SDK，基于全新的微信支付APIv3来实现。支持小程序支付、JSAPI支付、Native支付、APP支付、H5支付，支持直连商户模式和服务商模式。
 
 ### 安装说明
-go get gitee.com/haming123/wxpay4go
+go get github.com/szkjtv/wxpay4go
 
 ### 快速上手
 1. 商户对象初始化

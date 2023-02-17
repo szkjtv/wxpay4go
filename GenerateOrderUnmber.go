@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func getNonceStr() string {
+func GenerateOrderUnmber() string {
 	rand.Seed(time.Now().UnixNano())
 	return strconv.FormatInt(rand.Int63(), 10)
 }
